@@ -1,0 +1,111 @@
+{
+  "type": "home",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Aijinet Dev SlackBot"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Welcome !* Aijinet 개발팀 전용 Slackbot 입니다."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": ":warning: 개발팀 외에는 사용할 수 없습니다."
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Live Build",
+            "emoji": true
+          },
+          "value": "live-build"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Stage Build",
+            "emoji": true
+          },
+          "value": "stage-build"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Dev Build",
+            "emoji": true
+          },
+          "value": "dev-build"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*DevOps Service*"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*`Info`*\nLive, Stage, Dev 환경의 현재 Image 버전을 확인합니다."
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Info",
+          "emoji": true
+        },
+        "value": "info"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*`Help`*\nSlack Bot `/` 슬래쉬 커맨드 사용법을 확인합니다."
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Help",
+          "emoji": true
+        },
+        "value": "public-relations"
+      }
+    },
+    {
+      "type": "divider"
+    }
+  ]
+}

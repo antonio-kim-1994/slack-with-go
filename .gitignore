@@ -1,0 +1,5 @@
+# IDE 설정파일 제외
+/.idea
+
+# Slack 관련 환경 변수 파일 제외
+/slack.env
